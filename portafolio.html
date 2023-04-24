@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mi Portafolio</title>
+
+  <!-- Enlace al archivo CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Enlace a un archivo de estilos personalizado -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Mi Portafolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#acerca-de">Acerca de</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Encabezado -->
+  <header class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Bienvenido a mi portafolio</h1>
+      <p class="lead">Aquí encontrarás información sobre mis habilidades y proyectos realizados.</p>
+    </div>
+  </header>
+
+  <!-- Sección de Acerca de -->
+  <section id="acerca-de" class="py-5">
+    <div class="container">
+      <h2>Acerca de mí</h2>
+      <p>Mi nombre es Sergio labrin y soy Ingeniero Industrial Me apasiona los deportes y los perfumes.</p>
+    </div>
+  </section>
+
+<!-- Sección de Proyectos -->
+<section id="proyectos" class="py-5 bg-light">
+    <div class="container">
+      <h2>Mis proyectos</h2>
+      <div class="card-deck">
+        <div class="card mb-4">
+          <img src="assets/img/Poyecto_CV.png" class="card-img-top" alt="Proyecto 1">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto CV</h5>
+            <p class="card-text">Se realizo la creaciond e un Curriculum en HTML a modo de practica.</p>
+            <div class="card-footer mt-auto"><a href="#" class="btn btn-primary">Ver proyecto</a></div>
+          </div>
+        </div>
+        <div class="card mb-4">
+          <img src="assets/img/Poyecto_Perfume.png" class="card-img-top" alt="Proyecto 2">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto Perfumes</h5>
+            <p class="card-text">se realizo una maqueda con CSS donde se intento emular una pagina de ventas en este caso de perfumes.</p>
+            <div class="card-footer mt-auto"><a href="#" class="btn btn-primary">Ver proyecto</a></div>
+          </div>
+        </div>
+        <div class="card mb-4">
+          <img src="assets/img/Poyecto_Iguanas.png" class="card-img-top" alt="Proyecto 3">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto Iguanas</h5>
+            <p class="card-text">Se realizo la copia de una maqueta con CSS y Bootstrap para manejar comandos mas avanzados.</p>
+            <div class="card-footer mt-auto"><a href="#" class="btn btn-primary">Ver proyecto</a></div>
+          </div>
+        </div>
+        <div class="card mb-4">
+            <img src="assets/img/Poyecto_Cupon.png" class="card-img-top" alt="Proyecto 3">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto Cupon</h5>
+              <p class="card-text">Se realizo la copia de una pagina de descuentos con el fin de manejar el concepto de CARS en Bootstrap.</p>
+              <div class="card-footer mt-down"><a href="#" class="btn btn-primary">Ver proyecto</a></div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  
